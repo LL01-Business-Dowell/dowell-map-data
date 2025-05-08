@@ -26,9 +26,10 @@ export const Header: React.FC<HeaderProps> = ({
             className="flex items-center mb-4 md:mb-0"
           >
             <div className="w-12 h-12 rounded-lg bg-white text-blue-600 flex items-center justify-center mr-3 shadow-md">
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
+              {/* <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
                 <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
-              </svg>
+              </svg> */}
+              <img src="https://dowellfileuploader.uxlivinglab.online/hr/logo-2-min-min.png" alt="logo" />
             </div>
             <div>
               <h1 className="text-2xl font-bold">DoWell Map Data</h1>
